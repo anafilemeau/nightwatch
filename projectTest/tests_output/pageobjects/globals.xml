@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="pageobjects.globals"
+    errors="1" failures="0" hostname="" id="" package="pageobjects" skipped="0"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  Error: kill ENOSYS[0m
+[0;90m       at process.kill (internal/process/per_thread.js:189:13)[0m
+[0;31m  Error: Element &#34;searchModal&#34; was not found in &#34;centris&#34;. Available elements: searchForm, searchInput, searchButton, comboRegion, optionComboAllRegion, rangePriceMin, rangePriceMax, buttonResidential, buttonRent, optionAdvancedCriterias, buttonPropertyType[0m
+[0;90m       at Object.TestSearch (C:\projectTest\tests\main.js:8:6)[0m
+[0;31m  Error: An error occurred while retrieving a new session: &#34;read ECONNRESET&#34;[0m
+[0;90m       at Socket.socketErrorListener (_http_client.js:406:9)
+       at emitErrorNT (internal/streams/destroy.js:92:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+       at processTicksAndRejections (internal/process/task_queues.js:80:21)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

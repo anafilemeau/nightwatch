@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="pageobjects.retryClick"
+    errors="0" failures="0" hostname="" id="" package="pageobjects" skipped="0"
+    tests="1" time="0.000" timestamp="">
+  
+    <testcase name="retryClick" classname="pageobjects.retryClick" time="0.000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TimeoutError: An error occurred while running .click() command on &lt;Element [name=@buttonResidential]&gt;: stale element reference; stale element reference: element is not attached to the page document
+    (Session info: chrome=79.0.3945.88)
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;stale element reference&#34;,&#34;message&#34;:&#34;stale element reference: element is not attached to the page document\n  (Session info: chrome=79.0.3945.88)&#34;,&#34;stacktrace&#34;:&#34;Backtrace:\n\tOrdinal0 [0x00E7A113+1548563]\n\tOrdinal0 [0x00DFDDA1+1039777]\n\tOrdinal0 [0x00D7E485+517253]\n\tOrdinal0 [0x00D800A5+524453]\n\tOrdinal0 [0x00D7FF94+524180]\n\tOrdinal0 [0x00D80150+524624]\n\tOrdinal0 [0x00D18AF0+101104]\n\tOrdinal0 [0x00D1B813+112659]\n\tOrdinal0 [0x00D1AB00+109312]\n\tOrdinal0 [0x00D197FE+104446]\n\tOrdinal0 [0x00D19010+102416]\n\tOrdinal0 [0x00D133A1+78753]\n\tOrdinal0 [0x00D2977D+169853]\n\tOrdinal0 [0x00D131E6+78310]\n\tOrdinal0 [0x00D29991+170385]\n\tOrdinal0 [0x00D32594+206228]\n\tOrdinal0 [0x00D295FB+169467]\n\tOrdinal0 [0x00D1160A+71178]\n\tOrdinal0 [0x00D12690+75408]\n\tOrdinal0 [0x00D12629+75305]\n\tOrdinal0 [0x00E171B7+1143223]\n\tGetHandleVerifier [0x00F12B46+507814]\n\tGetHandleVerifier [0x00F12864+507076]\n\tGetHandleVerifier [0x00F19F47+537511]\n\tGetHandleVerifier [0x00F13402+510050]\n\tOrdinal0 [0x00E0F29C+1110684]\n\tOrdinal0 [0x00E1938B+1151883]\n\tOrdinal0 [0x00E194F3+1152243]\n\tOrdinal0 [0x00E183F5+1147893]\n\tBaseThreadInitThunk [0x772A8494+36]\n\tRtlAreBitsSet [0x779441C8+136]\n\tRtlAreBitsSet [0x77944198+88]\n&#34;},&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;stale element reference: element is not attached to the page document\n  (Session info: chrome=79.0.3945.88)&#34;,&#34;httpStatusCode&#34;:404}[0m
+[0;90m     (Session info: chrome=79.0.3945.88)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+[0;31m  TimeoutError: An error occurred while running .click() command on &lt;Element [name=@buttonRent]&gt;: stale element reference; stale element reference: element is not attached to the page document
+    (Session info: chrome=79.0.3945.88)
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;stale element reference&#34;,&#34;message&#34;:&#34;stale element reference: element is not attached to the page document\n  (Session info: chrome=79.0.3945.88)&#34;,&#34;stacktrace&#34;:&#34;Backtrace:\n\tOrdinal0 [0x00E7A113+1548563]\n\tOrdinal0 [0x00DFDDA1+1039777]\n\tOrdinal0 [0x00D7E485+517253]\n\tOrdinal0 [0x00D800A5+524453]\n\tOrdinal0 [0x00D7FF94+524180]\n\tOrdinal0 [0x00D80150+524624]\n\tOrdinal0 [0x00D18AF0+101104]\n\tOrdinal0 [0x00D1B813+112659]\n\tOrdinal0 [0x00D1AB00+109312]\n\tOrdinal0 [0x00D197FE+104446]\n\tOrdinal0 [0x00D19010+102416]\n\tOrdinal0 [0x00D133A1+78753]\n\tOrdinal0 [0x00D2977D+169853]\n\tOrdinal0 [0x00D131E6+78310]\n\tOrdinal0 [0x00D29991+170385]\n\tOrdinal0 [0x00D32594+206228]\n\tOrdinal0 [0x00D295FB+169467]\n\tOrdinal0 [0x00D1160A+71178]\n\tOrdinal0 [0x00D12690+75408]\n\tOrdinal0 [0x00D12629+75305]\n\tOrdinal0 [0x00E171B7+1143223]\n\tGetHandleVerifier [0x00F12B46+507814]\n\tGetHandleVerifier [0x00F12864+507076]\n\tGetHandleVerifier [0x00F19F47+537511]\n\tGetHandleVerifier [0x00F13402+510050]\n\tOrdinal0 [0x00E0F29C+1110684]\n\tOrdinal0 [0x00E1938B+1151883]\n\tOrdinal0 [0x00E194F3+1152243]\n\tOrdinal0 [0x00E183F5+1147893]\n\tBaseThreadInitThunk [0x772A8494+36]\n\tRtlAreBitsSet [0x779441C8+136]\n\tRtlAreBitsSet [0x77944198+88]\n&#34;},&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;stale element reference: element is not attached to the page document\n  (Session info: chrome=79.0.3945.88)&#34;,&#34;httpStatusCode&#34;:404}[0m
+[0;90m     (Session info: chrome=79.0.3945.88)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+[0;31m  TimeoutError: An error occurred while running .click() command on &lt;Element [name=@buttonPropertyType]&gt;: stale element reference; stale element reference: element is not attached to the page document
+    (Session info: chrome=79.0.3945.88)
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;stale element reference&#34;,&#34;message&#34;:&#34;stale element reference: element is not attached to the page document\n  (Session info: chrome=79.0.3945.88)&#34;,&#34;stacktrace&#34;:&#34;Backtrace:\n\tOrdinal0 [0x00E7A113+1548563]\n\tOrdinal0 [0x00DFDDA1+1039777]\n\tOrdinal0 [0x00D7E485+517253]\n\tOrdinal0 [0x00D800A5+524453]\n\tOrdinal0 [0x00D7FF94+524180]\n\tOrdinal0 [0x00D80150+524624]\n\tOrdinal0 [0x00D18AF0+101104]\n\tOrdinal0 [0x00D1B813+112659]\n\tOrdinal0 [0x00D1AB00+109312]\n\tOrdinal0 [0x00D197FE+104446]\n\tOrdinal0 [0x00D19010+102416]\n\tOrdinal0 [0x00D133A1+78753]\n\tOrdinal0 [0x00D2977D+169853]\n\tOrdinal0 [0x00D131E6+78310]\n\tOrdinal0 [0x00D29991+170385]\n\tOrdinal0 [0x00D32594+206228]\n\tOrdinal0 [0x00D295FB+169467]\n\tOrdinal0 [0x00D1160A+71178]\n\tOrdinal0 [0x00D12690+75408]\n\tOrdinal0 [0x00D12629+75305]\n\tOrdinal0 [0x00E171B7+1143223]\n\tGetHandleVerifier [0x00F12B46+507814]\n\tGetHandleVerifier [0x00F12864+507076]\n\tGetHandleVerifier [0x00F19F47+537511]\n\tGetHandleVerifier [0x00F13402+510050]\n\tOrdinal0 [0x00E0F29C+1110684]\n\tOrdinal0 [0x00E1938B+1151883]\n\tOrdinal0 [0x00E194F3+1152243]\n\tOrdinal0 [0x00E183F5+1147893]\n\tBaseThreadInitThunk [0x772A8494+36]\n\tRtlAreBitsSet [0x779441C8+136]\n\tRtlAreBitsSet [0x77944198+88]\n&#34;},&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;stale element reference: element is not attached to the page document\n  (Session info: chrome=79.0.3945.88)&#34;,&#34;httpStatusCode&#34;:404}[0m
+[0;90m     (Session info: chrome=79.0.3945.88)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

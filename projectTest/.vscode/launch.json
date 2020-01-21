@@ -1,0 +1,26 @@
+{
+
+	"version": "0.2.0",
+	"configurations": [{
+			"type": "node",
+			"request": "launch",
+			"name": "Nightwatch",
+			"program": "${workspaceRoot}/node_modules/nightwatch/bin/runner.js",
+			"stopOnEntry": false,
+			"args": [
+				"--test",
+				"tests/main.js",
+				"--config",
+          		"nightwatch.conf.js"
+			],
+			"runtimeExecutable": null,
+			"sourceMaps": false
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Process",
+			"port": 5858
+		}
+	]
+}
